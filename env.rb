@@ -4,6 +4,8 @@ require 'capybara'
 require 'selenium-webdriver'
 require 'capybara/cucumber'
 
+#Capybara::Selenium::Driver.new(app, :browser => :firefox, :marionette => true) -------para firefox
+
 Capybara.register_driver :selenium do |app|
     Capybara::Selenium::Driver.new(app, browser: :chrome)
 end
