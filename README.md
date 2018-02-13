@@ -4,6 +4,20 @@ My first project
 how I solved my problem with chromedriver on ubuntu 16.04
 https://christopher.su/2015/selenium-chromedriver-ubuntu/
 
+Install ChromeDriver:1
+
+sudo apt-get install unzip
+
+wget -N http://chromedriver.storage.googleapis.com/2.26/chromedriver_linux64.zip
+unzip chromedriver_linux64.zip
+chmod +x chromedriver
+
+sudo mv -f chromedriver /usr/local/share/chromedriver
+sudo ln -s /usr/local/share/chromedriver /usr/local/bin/chromedriver
+sudo ln -s /usr/local/share/chromedriver /usr/bin/chromedriver
+
+######################################################################################################################
+
 commands to generations a execution report are:
 
 cucumber --format html -o report.html
