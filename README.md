@@ -18,6 +18,16 @@ sudo ln -s /usr/local/share/chromedriver /usr/bin/chromedriver
 
 ######################################################################################################################
 
+problem to install gem selenium-webdriver
+
+solved with commands
+
+sudo apt-get install libffi-dev
+
+sudo gem install ffi
+
+######################################################################################################################
+
 commands to generations a execution report are:
 
 cucumber --format html -o report.html
