@@ -38,6 +38,11 @@ cucumber --format html out=> report.html
 
 Case you wanna to generate a report in other folder so you may write that
 
-cucumber --formart html -o folder/report.html
+cucumber --format html -o folder/report.html
+#Ubuntu
+
+cucumber --format html --out folder/report.html
+#windows
+
 
 :) see ya bye bye
