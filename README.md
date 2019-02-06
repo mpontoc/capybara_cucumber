@@ -1,3 +1,10 @@
+I've had a problem that the chromedriver doesnt execute a commands of capybara.
+
+So, bellow the link that I check and function:
+
+https://gist.github.com/ziadoz/3e8ab7e944d02fe872c3454d17af31a5
+
+
 capybara_cucumber
 
 My first project
