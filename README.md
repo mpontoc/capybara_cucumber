@@ -48,3 +48,8 @@ cucumber --format html --out folder/report.html #windows
 I had to generate a nem archive .json that it´s necessary to interpretation of Jenkins for cucumber reports.
 
 cucumber -f pretty -f json -o cucumber.json
+
+######################################################################################################################
+Same configurations for jenkins with chromedriver and firefox geckodriver
+
+https://stgconsulting.com/running-automated-selenium-tests-from-jenkins-on-linux/
