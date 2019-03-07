@@ -53,3 +53,7 @@ cucumber -f pretty -f json -o cucumber.json
 Same configurations for jenkins with chromedriver and firefox geckodriver
 
 https://stgconsulting.com/running-automated-selenium-tests-from-jenkins-on-linux/
+
+#######################################################################################################################
+How I solved my problem with instalation Jenkins in Ubuntu 18.04
+https://stackoverflow.com/questions/49937743/install-jenkins-in-ubuntu-18-04-lts-failed-failed-to-start-lsb-start-jenkins-a
