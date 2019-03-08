@@ -60,3 +60,4 @@ https://stackoverflow.com/questions/49937743/install-jenkins-in-ubuntu-18-04-lts
 
 ########################################################################################################################
 site prism page objetcs
+http://shipit.resultadosdigitais.com.br/blog/como-estruturar-page-objects-utilizando-siteprism/
